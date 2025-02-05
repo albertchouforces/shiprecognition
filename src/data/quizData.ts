@@ -289,7 +289,6 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
       themeColor: 'red',
       service: "rfn_combined",
       startScreenImage: "images/rfn-quiz-start.svg"
-      // No studyGuide field, so no study guide button will appear
     },
     questions: [
       {
