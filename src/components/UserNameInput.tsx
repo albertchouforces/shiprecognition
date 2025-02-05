@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { HighScoreEntry, QuizConfig } from '../types';
 import { saveGlobalScore, getGlobalScores } from '../lib/supabase';
-import { Trophy, Loader2, Medal as MedalIcon } from 'lucide-react';
+import { Trophy, Loader } from 'lucide-react';
 import { Medal } from './Medal';
 import { ENABLE_GLOBAL_LEADERBOARD } from '../config/features';
 
@@ -29,7 +29,7 @@ export function UserNameInput({
   const [isLoadingGlobalRank, setIsLoadingGlobalRank] = useState(false);
 
   // Get potential global ranking
-  useState(() => {
+  useEffect(() => {
     if (!ENABLE_GLOBAL_LEADERBOARD) {
       setIsLoadingGlobalRank(false);
       return;
@@ -206,7 +206,7 @@ export function UserNameInput({
         >
           {submitting ? (
             <>
-              <Loader2 className="animate-spin" size={16} />
+              <Loader className="animate-spin" size={16} />
               Saving Score...
             </>
           ) : (
