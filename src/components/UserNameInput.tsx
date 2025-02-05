@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { HighScoreEntry, QuizConfig } from '../types';
 import { saveGlobalScore, getGlobalScores } from '../lib/supabase';
-import { Trophy, Loader } from 'lucide-react';
+import { MedalIcon, Trophy, Loader } from 'lucide-react';
 import { Medal } from './Medal';
 import { ENABLE_GLOBAL_LEADERBOARD } from '../config/features';
 
