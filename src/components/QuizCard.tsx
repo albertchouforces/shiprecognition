@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ImageOff, Play, Trophy, BookOpen } from 'lucide-react';
+import { ImageOff, Play, BookOpen } from 'lucide-react';
 import type { QuizConfig, QuizStats } from '../types';
 import { HighScoresList } from './HighScoresList';
 

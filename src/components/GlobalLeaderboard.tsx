@@ -52,7 +52,6 @@ export function GlobalLeaderboard({ onClose, quizzes }: GlobalLeaderboardProps) 
   };
 
   const currentQuiz = quizzes.find(q => q.config.service === selectedQuiz);
-  const accentColor = currentQuiz?.config.themeColor || 'yellow';
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
