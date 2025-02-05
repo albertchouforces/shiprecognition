@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BookOpen, Globe2 } from 'lucide-react';
+import { ShipWheel, Globe2 } from 'lucide-react';
 import type { QuizStats } from '../types';
 import { QuizCard } from './QuizCard';
 import { GlobalLeaderboard } from './GlobalLeaderboard';
@@ -37,13 +37,13 @@ export function StartScreen({
       {/* Header */}
       <div className="text-center mb-12">
         <div className="flex items-center justify-center gap-3 mb-4">
-          <BookOpen className="text-blue-600" size={32} />
+          <ShipWheel className="text-orange-600" size={32} />
           <h1 className="text-4xl font-bold text-gray-800">
-            Quiz Collection
+          Ship Recognition
           </h1>
         </div>
         <h2 className="text-xl text-gray-600">
-          Choose a quiz to test your knowledge
+          Test your knowledge of ship silhouettes from other navies around the world
         </h2>
       </div>
 

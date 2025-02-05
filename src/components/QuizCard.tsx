@@ -58,7 +58,7 @@ export function QuizCard({ config, stats, onStart, onResetScores }: QuizCardProp
           <h3 className={`text-xl font-bold text-${config.themeColor}-600 mb-2 text-center`}>
             {config.title}
           </h3>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 mb-4 text-center">
             {config.description}
           </p>
 
