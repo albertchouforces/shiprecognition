@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ShipWheel, Globe2 } from 'lucide-react';
+import { ShipWheel, Globe } from 'lucide-react';
 import type { QuizStats } from '../types';
 import { QuizCard } from './QuizCard';
 import { GlobalLeaderboard } from './GlobalLeaderboard';
@@ -25,11 +25,37 @@ export function StartScreen({
     window.location.reload();
   };
 
-  // Calculate the number of columns needed based on screen size and quiz count
-  const getGridColumns = () => {
-    const numQuizzes = QUIZ_COLLECTION.length;
-    if (numQuizzes <= 2) return 'grid-cols-1 md:grid-cols-2';
-    return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
+  // Filter out hidden quizzes and then separate regular quizzes from advanced challenges
+  const visibleQuizzes = QUIZ_COLLECTION.filter(quiz => !quiz.config.hidden);
+  const regularQuizzes = visibleQuizzes.filter(quiz => !quiz.config.advancedChallenge);
+  const advancedQuizzes = visibleQuizzes.filter(quiz => quiz.config.advancedChallenge);
+
+  // Get grid columns based on number of items
+  const getGridColumns = (count: number): string => {
+    switch (count) {
+      case 0:
+        return '';
+      case 1:
+        return 'grid-cols-1';
+      case 2:
+        return 'grid-cols-1 md:grid-cols-2';
+      default:
+        return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
+    }
+  };
+
+  // Get grid width based on number of items
+  const getGridWidth = (count: number): string => {
+    switch (count) {
+      case 0:
+        return '';
+      case 1:
+        return 'max-w-md';
+      case 2:
+        return 'max-w-3xl';
+      default:
+        return 'max-w-6xl';
+    }
   };
 
   return (
@@ -39,7 +65,7 @@ export function StartScreen({
         <div className="flex items-center justify-center gap-3 mb-4">
           <ShipWheel className="text-orange-600" size={32} />
           <h1 className="text-4xl font-bold text-gray-800">
-          Ship Recognition
+            Ship Recognition
           </h1>
         </div>
         <h2 className="text-xl text-gray-600">
@@ -47,39 +73,68 @@ export function StartScreen({
         </h2>
       </div>
 
-      {/* Quiz Grid - Updated with dynamic column calculation */}
-      <div className="flex justify-center mb-12">
-        <div className={`grid ${getGridColumns()} gap-8 auto-rows-fr justify-items-center max-w-screen-lg mx-auto`}>
-          {QUIZ_COLLECTION.map((quiz) => (
-            <QuizCard
-              key={quiz.config.id}
-              config={quiz.config}
-              stats={getStatsForQuiz(quiz.config.service)}
-              onStart={() => onSelectQuiz(quiz.config.id)}
-              onResetScores={() => handleResetScores(quiz.config.service)}
-            />
-          ))}
+      {/* Regular Quizzes Grid */}
+      {regularQuizzes.length > 0 && (
+        <div className="flex justify-center mb-12">
+          <div className={`grid ${getGridColumns(regularQuizzes.length)} gap-8 w-full ${getGridWidth(regularQuizzes.length)} mx-auto`}>
+            {regularQuizzes.map((quiz) => (
+              <QuizCard
+                key={quiz.config.id}
+                config={quiz.config}
+                stats={getStatsForQuiz(quiz.config.service)}
+                onStart={() => onSelectQuiz(quiz.config.id)}
+                onResetScores={() => handleResetScores(quiz.config.service)}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Global Leaderboard Button */}
-      {ENABLE_GLOBAL_LEADERBOARD && (
-        <div className="flex justify-center">
+      {ENABLE_GLOBAL_LEADERBOARD && visibleQuizzes.length > 0 && (
+        <div className="flex justify-center mb-12">
           <button
             onClick={() => setShowGlobalLeaderboard(true)}
             className="flex items-center justify-center gap-2 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white rounded-lg transition-colors font-semibold shadow-md"
           >
-            <Globe2 size={20} />
+            <Globe size={20} />
             View Global Leaderboard
           </button>
         </div>
+      )}
+
+      {/* Advanced Challenges Section */}
+      {advancedQuizzes.length > 0 && (
+        <>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="flex-1 h-px bg-gray-200" />
+            <div className="flex items-center gap-2 text-gray-600 font-semibold">
+              Advanced Challenges
+            </div>
+            <div className="flex-1 h-px bg-gray-200" />
+          </div>
+
+          <div className="flex justify-center mb-12">
+            <div className={`grid ${getGridColumns(advancedQuizzes.length)} gap-8 w-full ${getGridWidth(advancedQuizzes.length)} mx-auto`}>
+              {advancedQuizzes.map((quiz) => (
+                <QuizCard
+                  key={quiz.config.id}
+                  config={quiz.config}
+                  stats={getStatsForQuiz(quiz.config.service)}
+                  onStart={() => onSelectQuiz(quiz.config.id)}
+                  onResetScores={() => handleResetScores(quiz.config.service)}
+                />
+              ))}
+            </div>
+          </div>
+        </>
       )}
 
       {/* Global Leaderboard Modal */}
       {showGlobalLeaderboard && (
         <GlobalLeaderboard 
           onClose={() => setShowGlobalLeaderboard(false)}
-          quizzes={QUIZ_COLLECTION}
+          quizzes={visibleQuizzes}
         />
       )}
     </div>

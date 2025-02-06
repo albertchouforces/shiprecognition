@@ -21,6 +21,8 @@
 //      * service: Unique identifier for storage (use snake_case) - represents the quiz_name
 //      * startScreenImage: Optional image for quiz card
 //      * studyGuide: Optional URL or path to study guide image
+//      * advancedChallenge: Optional boolean to mark as advanced challenge
+//      * hidden: Optional boolean to hide the quiz from display
 //      * questions: Array of questions following the QuestionData format
 //
 // Available theme colors:
@@ -288,7 +290,8 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
       description: "Ready for an advanced challenge? Test your knowledge of both Major and Minor Surface Combatants from the Russian Federation Navy.",
       themeColor: 'red',
       service: "rfn_combined",
-      startScreenImage: "images/rfn-quiz-start.svg"
+      startScreenImage: "images/rfn-quiz-start.svg",
+	  advancedChallenge: true
     },
     questions: [
       {
@@ -524,7 +527,9 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
     themeColor: 'violet',
     service: "musical_instruments_quiz",
     startScreenImage: "/images/music/music-start.jpg",
-    studyGuide: "/images/music/study-guide.jpg"  // Optional study guide image
+    studyGuide: "/images/music/study-guide.jpg",  // Optional study guide image
+    advancedChallenge: false,  // Optional advanced challenge flag
+    hidden: false  // Optional hidden flag
   },
   questions: [
     {
@@ -551,4 +556,6 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
 // 6. Add interesting facts to make the quiz educational
 // 7. Test all image paths before deploying
 // 8. If providing a study guide, ensure it's clear and relevant
+// 9. Use advancedChallenge flag for more difficult quizzes
+// 10. Use hidden flag to temporarily disable quizzes
 // =================================================================

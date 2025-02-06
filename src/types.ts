@@ -52,6 +52,8 @@ export interface QuizConfig {
   service: string;     // Represents the quiz_name for storage and identification
   startScreenImage?: string;
   studyGuide?: string; // Optional URL or path to study guide image
+  advancedChallenge?: boolean; // Indicates if this is an advanced challenge
+  hidden?: boolean;    // Optional flag to hide the quiz from display
 }
 
 export interface QuizDefinition {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getGlobalScores, type GlobalScoreEntry } from '../lib/supabase';
 import { Medal } from './Medal';
-import { Trophy, Loader2, X } from 'lucide-react';
+import { Trophy, X, Loader } from 'lucide-react';
 import type { QuizDefinition } from '../types';
 
 interface GlobalLeaderboardProps {
@@ -51,6 +51,12 @@ export function GlobalLeaderboard({ onClose, quizzes }: GlobalLeaderboardProps) 
     }
   };
 
+  const getSelectedQuizConfig = () => {
+    return quizzes.find(quiz => quiz.config.service === selectedQuiz)?.config;
+  };
+
+  const selectedQuizConfig = getSelectedQuizConfig();
+  const accentColor = selectedQuizConfig?.themeColor || 'blue';
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
@@ -91,7 +97,7 @@ export function GlobalLeaderboard({ onClose, quizzes }: GlobalLeaderboardProps) 
         <div className="flex-1 overflow-auto p-6">
           {loading ? (
             <div className="flex items-center justify-center h-full">
-              <Loader2 className="animate-spin text-gray-500" size={32} />
+              <Loader className="animate-spin text-gray-500" size={32} />
             </div>
           ) : error ? (
             <div className="text-center text-red-600 p-4">
@@ -125,8 +131,19 @@ export function GlobalLeaderboard({ onClose, quizzes }: GlobalLeaderboardProps) 
               </tbody>
             </table>
           ) : (
-            <div className="text-center text-gray-500 p-4">
-              No scores recorded yet for this quiz
+            <div className="h-full flex flex-col items-center justify-center text-center p-8">
+              <div className={`w-16 h-16 rounded-full bg-${accentColor}-50 flex items-center justify-center mb-4`}>
+                <Trophy className={`text-${accentColor}-600`} size={32} />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                Be the First Champion!
+              </h3>
+              <p className="text-gray-600 max-w-md">
+                No scores have been recorded yet for this quiz. Complete the challenge and claim your spot at the top of the leaderboard!
+              </p>
+              <div className={`mt-6 text-${accentColor}-600 text-sm font-medium`}>
+                Your score could be the first one here
+              </div>
             </div>
           )}
         </div>
