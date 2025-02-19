@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getGlobalScores, type GlobalScoreEntry } from '../lib/supabase';
 import { Medal } from './Medal';
-import { Trophy, X, Loader } from 'lucide-react';
+import { Loader, Trophy, X } from 'lucide-react';
 import type { QuizDefinition } from '../types';
 
 interface GlobalLeaderboardProps {
@@ -117,9 +117,12 @@ export function GlobalLeaderboard({ onClose, quizzes }: GlobalLeaderboardProps) 
               </thead>
               <tbody>
                 {scores.map((score, index) => (
-                  <tr key={`${score.user_name}-${index}`} className="border-t border-gray-100">
+                  <tr 
+                    key={`${score.user_name}-${index}`} 
+                    className={`border-t border-gray-100 transition-colors hover:bg-${accentColor}-50 cursor-default`}
+                  >
                     <td className="py-2 pl-2">{getPositionDisplay(index)}</td>
-                    <td className="py-2 font-medium">{score.user_name}</td>
+                    <td className={`py-2 font-medium hover:text-${accentColor}-700`}>{score.user_name}</td>
                     <td className="py-2">{score.score}</td>
                     <td className="py-2">{score.accuracy}%</td>
                     <td className="py-2 font-mono">{formatTime(score.time)}</td>
