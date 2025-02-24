@@ -602,7 +602,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
       id: "irin",
       title: "IRIN",
       description: "Test your knowledge of ships from the Islamic Republic of Iran Navy.",
-      themeColor: 'red',
+      themeColor: 'green',
       service: "irn",
       startScreenImage: "images/rfn-quiz-start.svg",
 	  advancedChallenge: false
