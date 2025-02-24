@@ -511,6 +511,264 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         imageUrl: "/images/RFN Minor Combatants/Buyan.png"
       }
     ]
+  },
+  {
+    config: {
+      id: "rfn_minor",
+      title: "RFN Minor Surface Combatants",
+      description: "Test your knowledge of Minor Surface Combatants from the Russian Federation Navy.",
+      themeColor: 'orange',
+      service: "rfn_minor",
+      startScreenImage: "images/minor-quiz-start.png"
+      // No studyGuide field, so no study guide button will appear
+    },
+    questions: [
+      {
+        id: 1,
+        question: "Identify this ship",
+        correctAnswer: "Dergach PGGA",
+        description: "This ship measures 64.5 metres (211.6 ft)",
+        fact: "The Dergach-class has both a sidewall hovercraft and a catamaran hull. It is one of the few types of military surface effect ships built solely for combat purposes, rather than troop landing or transport.",
+        imageUrl: "/images/RFN Minor Combatants/Dergach PGGA.png"
+      },
+      {
+        id: 2,
+        question: "Identify this ship",
+        correctAnswer: "Uragan PGG",
+        description: "This ship measures 67.0 metres (219.8 ft)",
+        fact: "The Uragan-class guided missile corvette is a more seaworthy, blue-water complement to the Buyan-M-class corvettes, designed for the littoral zone.Its primary weaponry consists of 8 VLS cells capable of carrying either Kaliber or Yakhont anti-ship cruise missiles.",
+        imageUrl: "/images/RFN Minor Combatants/Uragan PGG.png"
+      },
+      {
+        id: 3,
+        question: "Identify this ship",
+        correctAnswer: "Tarantul II PGG",
+        description: "This ship measures 56.1 metres (184.1 ft)",
+        fact: "The Tarantul II-class has a larger main mast array and smaller forward deck gun than the Tarantul III-class.",
+        imageUrl: "/images/RFN Minor Combatants/Tarantul II PGG.png"
+      },
+      {
+        id: 4,
+        question: "Identify this ship",
+        correctAnswer: "Tarantul III PGG",
+        description: "This ship measures 56.1 metres (184.1 ft)",
+        fact: "The Tarantul III-class has a larger deck gun and a smaller main mast array with a lighter stepped mast astern of the main array.",
+        imageUrl: "/images/RFN Minor Combatants/Tarantul III PGG.png"
+      },
+      {
+        id: 5,
+        question: "Identify this ship",
+        correctAnswer: "Nanuchka III PGG",
+        description: "This ship measures  metres ( ft)",
+        fact: "The Nanuchka III-class has a smaller main radar dome, smaller rear gun, and messier antenna mast than the Nanuchka IV-class.",
+        imageUrl: "/images/RFN Minor Combatants/Nanuchka III PGG.png"
+      },
+      {
+        id: 6,
+        question: "Identify this ship",
+        correctAnswer: "Nanuchka IV PGG",
+        description: "This ship measures 59.3 metres (194.6 ft)",
+        fact: "The Nanuchka IV-class has a larger main radar dome, larger rear gun, and neater main antenna mast than the Nanuchka III-class.",
+        imageUrl: "/images/RFN Minor Combatants/Nanuchka IV PGG.png"
+      },
+      {
+        id: 7,
+        question: "Identify this ship",
+        correctAnswer: "Buyan-M",
+        description: "This ship measures 74.1 metres (243.1 ft)",
+        fact: "The Buyan M-class missile corvettes use stealth technology and have 8 VLS cells for either Kalibr or Yakhont anti-ship cruise missiles. Due to their small tonnage, they can operate even within Russia's extensive inland waterway system. They have a raked superstructure and are longer amidships than the Buyan-class gunboats.",
+        imageUrl: "/images/RFN Minor Combatants/Buyan-M.png"
+      },
+      {
+        id: 8,
+        question: "Identify this ship",
+        correctAnswer: "Smolnyy PST",
+        description: "This ship measures 138.0 metres (452.8 ft)",
+        fact: "The Smolnyy-class are two training ships built for the Soviet Navy in the late 1970s. The ships were designed to provide seagoing training facilities. The ships have accommodation for 30 instructors and 300 cadets. They have basic armament for self-defense and patrol duties.",
+        imageUrl: "/images/RFN Minor Combatants/Smolnyy PST.png"
+      },
+      {
+        id: 9,
+        question: "Identify this ship",
+        correctAnswer: "Buyan",
+        description: "This ship measures 61.5 metres (201.8 ft)",
+        fact: "The Buyan-class gunboats have a more angular superstructure and are smaller amidships than the Buyan-M class. They have a draft of less than 10 feet.",
+        imageUrl: "/images/RFN Minor Combatants/Buyan.png"
+      }
+    ]
+  },
+  {
+    config: {
+      id: "irin",
+      title: "IRIN",
+      description: "Test your knowledge of ships from the Islamic Republic of Iran Navy.",
+      themeColor: 'red',
+      service: "irn",
+      startScreenImage: "images/rfn-quiz-start.svg",
+	  advancedChallenge: false
+    },
+    questions: [
+      {
+        id: 1,
+        question: "Identify this ship",
+        correctAnswer: "MK III PB",
+        description: "This ship measures 19.8 metres (64.9 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/MK III PB.png"
+      },
+      {
+        id: 2,
+        question: "Identify this ship",
+        correctAnswer: "FB 40 PB",
+        description: "This ship measures 12.94 metres (42.5 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/FB 40 PB.png"
+      },
+      {
+        id: 3,
+        question: "Identify this ship",
+        correctAnswer: "CAPE PTG",
+        description: "This ship measures 29 metres (95.1 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/CAPE PTG.png"
+      },
+      {
+        id: 4,
+        question: "Identify this ship",
+        correctAnswer: "PGM-71 PTG",
+        description: "This ship measures 30.8 metres (64.9 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/PGM-71 PTG.png"
+      },
+      {
+        id: 5,
+        question: "Identify this ship",
+        correctAnswer: "COMBATTANTE II MOD PTG",
+        description: "This ship measures 47 metres (154.2 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/COMBATTANTE II MOD PTG.png"
+      },
+      {
+        id: 6,
+        question: "Identify this ship",
+        correctAnswer: "HENDIJAN AG",
+        description: "This ship measures 47 metres (154.2 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/HENDIJAN AG.png"
+      },
+      {
+        id: 7,
+        question: "Identify this ship",
+        correctAnswer: "DELVAR AE",
+        description: "This ship measures 64 metres (209.97 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/DELVAR AE.png"
+      },
+      {
+        id: 8,
+        question: "Identify this ship",
+        correctAnswer: "PF 103 PSG",
+        description: "This ship measures 82.83 metres (275 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/PF 103 PSG.png"
+      },
+      {
+        id: 9,
+        question: "Identify this ship",
+        correctAnswer: "DELVAR AO",
+        description: "This ship measures 64 metres (209.97 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/DELVAR AO.png"
+      },
+      {
+        id: 10,
+        question: "Identify this ship",
+        correctAnswer: "DELVAR AK",
+        description: "This ship measures 64 metres (209.97 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/DELVAR AK.png"
+      },
+      {
+        id: 11,
+        question: "Identify this ship",
+        correctAnswer: "VOSPER MK5 FFL",
+        description: "This ship measures 94.5 metres (310 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/VOSPER MK5 FFL.png"
+      },
+      {
+        id: 12,
+        question: "Identify this ship",
+        correctAnswer: "HENGHAM LST",
+        description: "This ship measures 92.96 metres (305 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/HENGHAM LST.png"
+      },
+      {
+        id: 13,
+        question: "Identify this ship",
+        correctAnswer: "NAHANG SSM",
+        description: "This ship measures 25 metres (82 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/NAHANG SSM.png"
+      },
+      {
+        id: 14,
+        question: "Identify this ship",
+        correctAnswer: "YONO SSM",
+        description: "This ship measures 28 metres (91.8) ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/YONO SSM.png"
+      },
+      {
+        id: 15,
+        question: "Identify this ship",
+        correctAnswer: "JAMARAN FFLG",
+        description: "This ship measures 95 metres (311.18 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/AMARAN FFLG.png"
+      },
+      {
+        id: 16,
+        question: "Identify this ship",
+        correctAnswer: "BANDAR ABBAS AOR",
+        description: "This ship measures 108 metres (354.33 ft)",
+        fact: "",
+        imageUrl: "//images/IRIN/BANDAR ABBAS AOR.png"
+      },
+      {
+        id: 17,
+        question: "Identify this ship",
+        correctAnswer: "FATEH SSC",
+        description: "This ship measures 50 metres (164 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/FATEH SSC.png"
+      },
+      {
+        id: 18,
+        question: "Identify this ship",
+        correctAnswer: "KILO SS",
+        description: "This ship measures 80 metres (262.4 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/KILO SS.png"
+      },
+      {
+        id: 19,
+        question: "Identify this ship",
+        correctAnswer: "HENDIJAN PPG",
+        description: "This ship measures 47 metres (154.2 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/HENDIJAN PPG.png"
+      },
+      {
+        id: 20,
+        question: "Identify this ship",
+        correctAnswer: "KHARG AOR",
+        description: "This ship measures 207.20 metres (679.79 ft)",
+        fact: "",
+        imageUrl: "/images/IRIN/KHARG AOR.png"
+      }
+    ]
   }
 ];
 
