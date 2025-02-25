@@ -641,7 +641,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         correctAnswer: "JAMARAN FFLG",
         description: "This ship measures 95 metres (311.18 ft)",
         fact: "Jamaran is the lead ship of the Iranian Moudge-class frigate launched in early 2010. Iran has stated that the design and building of Jamaran was among the greatest achievements of the Iranian Navy and the ship's launch marks a major technological leap for Iran's naval industries.",
-        imageUrl: "/images/IRIN/AMARAN FFLG.png"
+        imageUrl: "/images/IRIN/JAMARAN FFLG.png"
       },
       {
         id: 16,
