@@ -649,7 +649,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         correctAnswer: "BANDAR ABBAS AOR",
         description: "This ship measures 108 metres (354.33 ft)",
         fact: "Bandar Abbas is a class that includes a pair of fleet supply ships.",
-        imageUrl: "//images/IRIN/BANDAR ABBAS AOR.png"
+        imageUrl: "/images/IRIN/BANDAR ABBAS AOR.png"
       },
       {
         id: 17,
