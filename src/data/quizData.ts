@@ -121,7 +121,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Udaloy I DD",
         description: "This ship measures 163.5 metres (536.4 ft)",
-        fact: "The Udaloy I-class has two deck guns on the forward deck. ",
+        fact: "The Udaloy I-class has two deck guns on the forward deck.",
         imageUrl: "/images/RFN Major Combatants/Udaloy I DD.png"
       },
       {
@@ -363,7 +363,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Udaloy I DD",
         description: "This ship measures 163.5 metres (536.4 ft)",
-        fact: "The Udaloy I-class has two deck guns on the forward deck. ",
+        fact: "The Udaloy I-class has two deck guns on the forward deck.",
         imageUrl: "/images/RFN Major Combatants/Udaloy I DD.png"
       },
       {
@@ -515,8 +515,8 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
   {
     config: {
       id: "irin",
-      title: "IRIN",
-      description: "Test your knowledge of ships from the Islamic Republic of Iran Navy.",
+      title: "IRIN Warships",
+      description: "Test your knowledge of warships from the Islamic Republic of Iran Navy.",
       themeColor: 'green',
       service: "irn",
       startScreenImage: "images/IRIN-quiz-start.svg",
@@ -528,7 +528,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "MK III PB",
         description: "This ship measures 19.8 metres (64.9 ft)",
-        fact: "",
+        fact: "Iran purchased 20 of these boats between 1975 and 1976, of which 11 survived the Iran-Iraq war. More lightly armed than their US counterparts, Iranian MK III's had replaced their forward 12.7mm machine gun with a 20mm cannon by 1995.",
         imageUrl: "/images/IRIN/MK III PB.png"
       },
       {
@@ -536,7 +536,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "FB 40 PB",
         description: "This ship measures 12.94 metres (42.5 ft)",
-        fact: "",
+        fact: "They are equipped with either a central machine gun mounted on the forward or two machine guns mounted on each side of the boat",
         imageUrl: "/images/IRIN/FB 40 PB.png"
       },
       {
@@ -544,7 +544,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "CAPE PTG",
         description: "This ship measures 29 metres (95.1 ft)",
-        fact: "",
+        fact: "These ships  are modified versions of the American Cape-class vessels, built by the United States Coast Guard Yard in the 1950s.",
         imageUrl: "/images/IRIN/CAPE PTG.png"
       },
       {
@@ -552,7 +552,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "PGM-71 PTG",
         description: "This ship measures 30.8 metres (64.9 ft)",
-        fact: "",
+        fact: "Original armament of the ships reportedly included five guns: 12.7mm and 20mm each two and one 40mm.",
         imageUrl: "/images/IRIN/PGM-71 PTG.png"
       },
       {
@@ -560,7 +560,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "COMBATTANTE II MOD PTG",
         description: "This ship measures 47 metres (154.2 ft)",
-        fact: "",
+        fact: "This fast attack craft was built in France for export. Iran ordered 12 ships, nine of which were delivered in 1977 and 1978, and three of which were delayed until 1981 as a result of the 1979 Islamic Revolution.",
         imageUrl: "/images/IRIN/COMBATTANTE II MOD PTG.png"
       },
       {
@@ -568,7 +568,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "HENDIJAN AG",
         description: "This ship measures 47 metres (154.2 ft)",
-        fact: "",
+        fact: "For navigation, Hendijan-class vessels rely on Raccal Decca or China RM 1070A on I-band. The missiles use active radar homing to 120 km (65 nmi) at 0.9 Mach.",
         imageUrl: "/images/IRIN/HENDIJAN AG.png"
       },
       {
@@ -576,7 +576,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "DELVAR AE",
         description: "This ship measures 64 metres (209.97 ft)",
-        fact: "",
+        fact: "It uses two shafts, powered by two MAN G6V 23.5/33ATL diesel engines. This system was designed to provide 1,560 horsepower (1.16 MW) for an estimated top speed of 11 knots (20 km/h; 13 mph).",
         imageUrl: "/images/IRIN/DELVAR AE.png"
       },
       {
@@ -584,7 +584,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "PF 103 PSG",
         description: "This ship measures 82.83 metres (275 ft)",
-        fact: "",
+        fact: "The Bayandor class comprises four Iranian patrol frigates originally built for the US Navy as the PF-103 class. It was named after Gholamali Bayandor. Only two are currently in service.",
         imageUrl: "/images/IRIN/PF 103 PSG.png"
       },
       {
@@ -592,7 +592,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "DELVAR AO",
         description: "This ship measures 64 metres (209.97 ft)",
-        fact: "",
+        fact: "For navigation, Delvar-class vessels rely on Decca 1226 on IJ-band.",
         imageUrl: "/images/IRIN/DELVAR AO.png"
       },
       {
@@ -600,7 +600,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "DELVAR AK",
         description: "This ship measures 64 metres (209.97 ft)",
-        fact: "",
+        fact: "Delvar-class vessels are reportedly equipped with one 20 mm GAM-BO1 cannon and two 12.7 mm machine guns. The ships have since been rearmed.",
         imageUrl: "/images/IRIN/DELVAR AK.png"
       },
       {
@@ -608,7 +608,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "VOSPER MK5 FFL",
         description: "This ship measures 94.5 metres (310 ft)",
-        fact: "",
+        fact: "Three still remain in service. A fourth was sunk by the U.S. Navy in 1988.",
         imageUrl: "/images/IRIN/VOSPER MK5 FFL.png"
       },
       {
@@ -616,7 +616,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "HENGHAM LST",
         description: "This ship measures 92.96 metres (305 ft)",
-        fact: "",
+        fact: "This landing craft was designed for the special circumstances of an opposed amphibious landing, in which troops have to be landed onto beaches rather than at a port or quayside. They possess a shallow draft so that they could get close to the water’s edge and land troops in only shallow water, and a ramp that enabled the troops to exit the craft rapidly and go into action the moment they did so.",
         imageUrl: "/images/IRIN/HENGHAM LST.png"
       },
       {
@@ -624,7 +624,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "NAHANG SSM",
         description: "This ship measures 25 metres (82 ft)",
-        fact: "",
+        fact: "The Nahang is an Iranian-made class of midget submarine designed for shallow water operations.",
         imageUrl: "/images/IRIN/NAHANG SSM.png"
       },
       {
@@ -632,7 +632,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "YONO SSM",
         description: "This ship measures 28 metres (91.8) ft)",
-        fact: "",
+        fact: "The Ghadir-class is also referred to as a sub-class of the Yono-class, suggesting that the submarines may be based on North Korean technology. North Korea may have built the first one or two Iranian Yono-class submarines, but the exact level of North Korean involvement in design and production is unknown.",
         imageUrl: "/images/IRIN/YONO SSM.png"
       },
       {
@@ -640,7 +640,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "JAMARAN FFLG",
         description: "This ship measures 95 metres (311.18 ft)",
-        fact: "",
+        fact: "Jamaran is the lead ship of the Iranian Moudge-class frigate launched in early 2010. Iran has stated that the design and building of Jamaran was among the greatest achievements of the Iranian Navy and the ship's launch marks a major technological leap for Iran's naval industries.",
         imageUrl: "/images/IRIN/AMARAN FFLG.png"
       },
       {
@@ -648,7 +648,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "BANDAR ABBAS AOR",
         description: "This ship measures 108 metres (354.33 ft)",
-        fact: "",
+        fact: "Bandar Abbas is a class that includes a pair of fleet supply ships.",
         imageUrl: "//images/IRIN/BANDAR ABBAS AOR.png"
       },
       {
@@ -656,7 +656,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "FATEH SSC",
         description: "This ship measures 50 metres (164 ft)",
-        fact: "",
+        fact: "Fateh is an Iranian designed class of semi-heavy submarines. The Iranian media reported that Fateh class subs can operate more than 200 metres (660 ft) below the sea surface for nearly five weeks.",
         imageUrl: "/images/IRIN/FATEH SSC.png"
       },
       {
@@ -664,7 +664,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "KILO SS",
         description: "This ship measures 80 metres (262.4 ft)",
-        fact: "",
+        fact: "The Kilo-class submarines are a group of diesel-electric attack submarines. About forty of these Russian made vessels have been exported to several countries, including 3 to Iran.",
         imageUrl: "/images/IRIN/KILO SS.png"
       },
       {
@@ -672,7 +672,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "HENDIJAN PPG",
         description: "This ship measures 47 metres (154.2 ft)",
-        fact: "",
+        fact: "Ships of the class are tenders that are used for coastal surveillance and one of them is used as a training ship.",
         imageUrl: "/images/IRIN/HENDIJAN PPG.png"
       },
       {
@@ -680,7 +680,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "KHARG AOR",
         description: "This ship measures 207.20 metres (679.79 ft)",
-        fact: "",
+        fact: "The International Institute of Strategic Studies (IISS) classified Kharg as an AORH, i.e. fleet replenishment oiler with replenishment at sea (RAS) capability and hangar.",
         imageUrl: "/images/IRIN/KHARG AOR.png"
       }
     ]
