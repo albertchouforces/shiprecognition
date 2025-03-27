@@ -684,6 +684,211 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         imageUrl: "/images/IRIN/KHARG AOR.png"
       }
     ]
+  },
+  {
+    config: {
+      id: "plan_combatants",
+      title: "PLAN Naval Combatants",
+      description: "Test your knowledge of naval combatants from the People's Liberation Army Navy of China.",
+      themeColor: 'red',
+      service: "plan_combatants",
+      startScreenImage: "images/PLAN-quiz-start.png",
+	  advancedChallenge: false
+    },
+    questions: [
+      {
+        id: 1,
+        question: "Identify this ship",
+        correctAnswer: "Renhai CG",
+        description: "This ship measures 180 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Renhai CG.jpg"
+      },
+      {
+        id: 2,
+        question: "Identify this ship",
+        correctAnswer: "Luyang III MOD DDG",
+        description: "This ship measures 162 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Luyang III MOD DDG.jpg"
+      },
+      {
+        id: 3,
+        question: "Identify this ship",
+        correctAnswer: "Fujian CV",
+        description: "This ship measures 315 metres",
+        fact: "",
+        imageUrl: "/images/IRIN/Fujian CV.png"
+      },
+      {
+        id: 4,
+        question: "Identify this ship",
+        correctAnswer: "Kuznetsov",
+        description: "This ship measures 315 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Kuznetsov - Kuznetsov MOD CV.jpg"
+      },
+      {
+        id: 5,
+        question: "Identify this ship",
+        correctAnswer: "Luyang III DDG",
+        description: "This ship measures 157 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Luyang III DDG.jpg"
+      },
+      {
+        id: 6,
+        question: "Identify this ship",
+        correctAnswer: "Luyang II DDG",
+        description: "This ship measures 157 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Luyang II DDG.jpg"
+      },
+      {
+        id: 7,
+        question: "Identify this ship",
+        correctAnswer: "Luyang I DDG",
+        description: "This ship measures 157 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Luyang I DDG.jpg"
+      },
+      {
+        id: 8,
+        question: "Identify this ship",
+        correctAnswer: "Luzhou DDG",
+        description: "This ship measures 156 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Luzhou DDG.jpg"
+      },
+      {
+        id: 9,
+        question: "Identify this ship",
+        correctAnswer: "Luhai DDG",
+        description: "This ship measures 153 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Luhai DDG.jpg"
+      },
+      {
+        id: 10,
+        question: "Identify this ship",
+        correctAnswer: "Sovremennyy II DDG",
+        description: "This ship measures 156 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Sovremennyy II DDG.jpg"
+      },
+      {
+        id: 11,
+        question: "Identify this ship",
+        correctAnswer: "Sovremennyy III DDG",
+        description: "This ship measures 156 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Sovremennyy III DDG.jpg"
+      },
+      {
+        id: 12,
+        question: "Identify this ship",
+        correctAnswer: "Luhu DD",
+        description: "This ship measures 142 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Luhu DD.jpg"
+      },
+      {
+        id: 13,
+        question: "Identify this ship",
+        correctAnswer: "Jiangkai III FFG",
+        description: "This ship measures 150 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Jiangkai III FFG.jpg"
+      },
+      {
+        id: 14,
+        question: "Identify this ship",
+        correctAnswer: "Jiangkai II MOD FFG",
+        description: "This ship measures 140 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Jiangkai II MOD FFG.jpg"
+      },
+      {
+        id: 15,
+        question: "Identify this ship",
+        correctAnswer: "Jiangkai II FFG",
+        description: "This ship measures 133 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Jiangkai II FFG.jpg"
+      },
+      {
+        id: 16,
+        question: "Identify this ship",
+        correctAnswer: "Jiangkai I FF",
+        description: "This ship measures 133 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Jiangkai I FF.jpg"
+      },
+      {
+        id: 17,
+        question: "Identify this ship",
+        correctAnswer: "Jiangwei II Upgrade FF",
+        description: "This ship measures 112 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Jiangwei II Upgrade FF.jpg"
+      },
+      {
+        id: 18,
+        question: "Identify this ship",
+        correctAnswer: "Jiangwei II FF",
+        description: "This ship measures 112 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Jiangwei II FF.jpg"
+      },
+      {
+        id: 19,
+        question: "Identify this ship",
+        correctAnswer: "Jiangdao FFL",
+        description: "This ship measures 90 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Jiangdao FFL.jpg"
+      },
+      {
+        id: 20,
+        question: "Identify this ship",
+        correctAnswer: "Houbei PTG",
+        description: "This ship measures 46 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Houbei PTG.jpg"
+      },
+      {
+        id: 21,
+        question: "Identify this ship",
+        correctAnswer: "Houxin PGG",
+        description: "This ship measures 65 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Houxin PGG.jpg"
+      },
+      {
+        id: 22,
+        question: "Identify this ship",
+        correctAnswer: "Houjian PGG",
+        description: "This ship measures 62 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Houjian PGG.jpg"
+      },
+      {
+        id: 23,
+        question: "Identify this ship",
+        correctAnswer: "Haiqing PC",
+        description: "This ship measures 62 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Haiqing PC.jpg"
+      },
+      {
+        id: 24,
+        question: "Identify this ship",
+        correctAnswer: "Shanghai III PC",
+        description: "This ship measures 42 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/Shanghai III PC.jpg"
+      }
+    ]
   }
 ];
 
