@@ -718,7 +718,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         correctAnswer: "Fujian CV",
         description: "This ship measures 315 metres",
         fact: "",
-        imageUrl: "/images/IRIN/Fujian CV.png"
+        imageUrl: "/images/PLAN Naval Combatants/Fujian CV.png"
       },
       {
         id: 4,
