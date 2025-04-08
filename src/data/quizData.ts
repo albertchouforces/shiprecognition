@@ -701,7 +701,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Renhai CG",
         description: "This ship measures 180 metres",
-        fact: "",
+        fact: "The Type 055 destroyer (NATO/OSD designation Renhai-class cruiser) is a class of stealth guided-missile destroyers. It has a multi-mission design; the combination of sensors and weapons provides a main role of area air defence, with anti-submarine warfare capabilities surpassing previous Chinese surface combatants.",
         imageUrl: "/images/PLAN Naval Combatants/Renhai CG.jpg"
       },
       {
@@ -709,7 +709,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Luyang III MOD DDG",
         description: "This ship measures 162 metres",
-        fact: "",
+        fact: "The Type 052D destroyer (NATO/OSD reporting name: Luyang III-class destroyer)[13] is a class of guided-missile destroyers.",
         imageUrl: "/images/PLAN Naval Combatants/Luyang III MOD DDG.jpg"
       },
       {
@@ -717,15 +717,15 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Fujian CV",
         description: "This ship measures 315 metres",
-        fact: "",
+        fact: "It is the third aircraft carrier of the Chinese aircraft carrier programme, capable of catapult-assisted take-offs (CATOBAR).",
         imageUrl: "/images/PLAN Naval Combatants/Fujian CV.jpg"
       },
       {
         id: 4,
         question: "Identify this ship",
-        correctAnswer: "Kuznetsov",
+        correctAnswer: "Kuznetsov MOD CV",
         description: "This ship measures 315 metres",
-        fact: "",
+        fact: "the design of the ship is a modified version of and similar to the Kuznetsov-class aircraft carrier originally made for the Soviet Navy.",
         imageUrl: "/images/PLAN Naval Combatants/Kuznetsov - Kuznetsov MOD CV.jpg"
       },
       {
