@@ -1016,7 +1016,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
       {
         id: 15,
         question: "Identify this ship",
-        correctAnswer: "WOCHI MCM (early)",
+        correctAnswer: "Wochi MCM (early)",
         description: "This ship measures 66 metres",
         fact: "",
         imageUrl: "/images/PLAN Naval Combatants/WOCHI MCM.jpg"
@@ -1024,7 +1024,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
       {
         id: 16,
         question: "Identify this ship",
-        correctAnswer: "WOSAO I MSC",
+        correctAnswer: "Wosao I MSC",
         description: "This ship measures 45 metres",
         fact: "",
         imageUrl: "/images/PLAN Naval Combatants/WOSAO I MSC.jpg"
@@ -1032,7 +1032,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
       {
         id: 17,
         question: "Identify this ship",
-        correctAnswer: "WOCHI MCM (late)",
+        correctAnswer: "Wochi MCM (late)",
         description: "This ship measures 70 metres",
         fact: "",
         imageUrl: "/images/PLAN Naval Combatants/WOCHI MCM (late).jpg"
@@ -1040,26 +1040,26 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
       {
         id: 18,
         question: "Identify this ship",
-        correctAnswer: "WOSAO II MSC",
+        correctAnswer: "Wosao II MSC",
         description: "This ship measures 48 metres",
         fact: "",
-        imageUrl: "/images/PLAN Naval Combatants/WOSAO II MSC.jpg"
+        imageUrl: "/images/PLAN Mine Warefare Ships/Wosao II MSC.jpg"
       },
       {
         id: 19,
         question: "Identify this ship",
-        correctAnswer: "WOZANG MHS",
+        correctAnswer: "Wozang MHS",
         description: "This ship measures 55-58 metres",
         fact: "",
-        imageUrl: "/images/PLAN Naval Combatants/WOZANG MHS.jpg"
+        imageUrl: "/images/PLAN Mine Warefare Ships/Wozang MHS.jpg"
       },
       {
         id: 20,
         question: "Identify this ship",
-        correctAnswer: "WONANG MSI",
+        correctAnswer: "Wonang MSI",
         description: "This ship measures 30 metres",
         fact: "",
-        imageUrl: "/images/PLAN Naval Combatants/WONANG MSI.jpg"
+        imageUrl: "/images/PLAN Mine Warefare Ships/Wonang MSI.jpg"
       }
     ]
   }
