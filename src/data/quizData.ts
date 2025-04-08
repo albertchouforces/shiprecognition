@@ -889,6 +889,179 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         imageUrl: "/images/PLAN Naval Combatants/Shanghai III PC.jpg"
       }
     ]
+  },
+  {
+    config: {
+      id: "plan_amphibious_mine",
+      title: "PLAN Amphibious and Mine Warfare Ships",
+      description: "Test your knowledge of amphibious and mine warfare ships from the People's Liberation Army Navy of China.",
+      themeColor: 'red',
+      service: "plan_amphibious_mine",
+      startScreenImage: "images/PLAN-quiz-start2.png",
+	  advancedChallenge: false
+    },
+    questions: [
+      {
+        id: 1,
+        question: "Identify this ship",
+        correctAnswer: "Yushen LHA",
+        description: "This ship measures 240 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yushen LHA.jpg"
+      },
+      {
+        id: 2,
+        question: "Identify this ship",
+        correctAnswer: "Yuzhao LPD",
+        description: "This ship measures 212 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yuzhao LPD.jpg"
+      },
+      {
+        id: 3,
+        question: "Identify this ship",
+        correctAnswer: "Yulan LHA",
+        description: "This ship measures 260 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yulan LHA.jpg"
+      },
+      {
+        id: 4,
+        question: "Identify this ship",
+        correctAnswer: "Yuting II LST",
+        description: "This ship measures 120 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yuting II LST.jpg"
+      },
+      {
+        id: 5,
+        question: "Identify this ship",
+        correctAnswer: "Yuting I LST",
+        description: "This ship measures 120 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yuting I LST.jpg"
+      },
+      {
+        id: 6,
+        question: "Identify this ship",
+        correctAnswer: "Yukan LST",
+        description: "This ship measures 120 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yukan LST.jpg"
+      },
+      {
+        id: 7,
+        question: "Identify this ship",
+        correctAnswer: "Yuyi LCMA",
+        description: "This ship measures 30 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yuyi LCMA.jpg"
+      },
+      {
+        id: 8,
+        question: "Identify this ship",
+        correctAnswer: "Yubu LCU",
+        description: "This ship measures 36 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yubu LCU.jpg"
+      },
+      {
+        id: 9,
+        question: "Identify this ship",
+        correctAnswer: "Yunshu LSM",
+        description: "This ship measures 86 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yunshu LSM.jpg"
+      },
+      {
+        id: 10,
+        question: "Identify this ship",
+        correctAnswer: "Yudeng LSM",
+        description: "This ship measures 87 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yudeng LSM.jpg"
+      },
+      {
+        id: 11,
+        question: "Identify this ship",
+        correctAnswer: "Yuhai",
+        description: "This ship measures 58 metres",
+        fact: "It is also the Yuhai MOD LSM",
+        imageUrl: "/images/PLAN Amphibious Ships/Yuhai - Yuhai MOD LSM.jpg"
+      },
+      {
+        id: 12,
+        question: "Identify this ship",
+        correctAnswer: "Yubei LCU",
+        description: "This ship measures 65 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yubei LCU.jpg"
+      },
+      {
+        id: 13,
+        question: "Identify this ship",
+        correctAnswer: "Pomornik LCUA",
+        description: "This ship measures 56 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Pomornik LCUA.jpg"
+      },
+      {
+        id: 14,
+        question: "Identify this ship",
+        correctAnswer: "Yunnan II LCM / YFU",
+        description: "This ship measures 28 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Amphibious Ships/Yunnan II LCM - YFU.jpg"
+      },
+      {
+        id: 15,
+        question: "Identify this ship",
+        correctAnswer: "WOCHI MCM (early)",
+        description: "This ship measures 66 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/WOCHI MCM.jpg"
+      },
+      {
+        id: 16,
+        question: "Identify this ship",
+        correctAnswer: "WOSAO I MSC",
+        description: "This ship measures 45 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/WOSAO I MSC.jpg"
+      },
+      {
+        id: 17,
+        question: "Identify this ship",
+        correctAnswer: "WOCHI MCM (late)",
+        description: "This ship measures 70 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/WOCHI MCM (late).jpg"
+      },
+      {
+        id: 18,
+        question: "Identify this ship",
+        correctAnswer: "WOSAO II MSC",
+        description: "This ship measures 48 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/WOSAO II MSC.jpg"
+      },
+      {
+        id: 19,
+        question: "Identify this ship",
+        correctAnswer: "WOZANG MHS",
+        description: "This ship measures 55-58 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/WOZANG MHS.jpg"
+      },
+      {
+        id: 20,
+        question: "Identify this ship",
+        correctAnswer: "WONANG MSI",
+        description: "This ship measures 30 metres",
+        fact: "",
+        imageUrl: "/images/PLAN Naval Combatants/WONANG MSI.jpg"
+      }
+    ]
   }
 ];
 
