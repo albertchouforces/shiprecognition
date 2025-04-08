@@ -1019,7 +1019,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         correctAnswer: "Wochi MCM (early)",
         description: "This ship measures 66 metres",
         fact: "",
-        imageUrl: "/images/PLAN Naval Combatants/WOCHI MCM.jpg"
+        imageUrl: "/images/PLAN Mine Warefare Ships/WOCHI MCM.jpg"
       },
       {
         id: 16,
@@ -1027,7 +1027,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         correctAnswer: "Wosao I MSC",
         description: "This ship measures 45 metres",
         fact: "",
-        imageUrl: "/images/PLAN Naval Combatants/WOSAO I MSC.jpg"
+        imageUrl: "/images/PLAN Mine Warefare Ships/WOSAO I MSC.jpg"
       },
       {
         id: 17,
@@ -1035,7 +1035,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         correctAnswer: "Wochi MCM (late)",
         description: "This ship measures 70 metres",
         fact: "",
-        imageUrl: "/images/PLAN Naval Combatants/WOCHI MCM (late).jpg"
+        imageUrl: "/images/PLAN Mine Warefare Ships/WOCHI MCM (late).jpg"
       },
       {
         id: 18,
