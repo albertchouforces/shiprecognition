@@ -895,7 +895,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
       id: "plan_amphibious_mine",
       title: "PLAN Amphibious and Mine Warfare Ships",
       description: "Test your knowledge of amphibious and mine warfare ships from the People's Liberation Army Navy of China.",
-      themeColor: 'red',
+      themeColor: 'blue',
       service: "plan_amphibious_mine",
       startScreenImage: "images/PLAN-quiz-start2.png",
 	  advancedChallenge: false
