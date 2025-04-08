@@ -1019,7 +1019,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         correctAnswer: "Wochi MCM (early)",
         description: "This ship measures 66 metres",
         fact: "",
-        imageUrl: "/images/PLAN Mine Warefare Ships/WOCHI MCM (early).jpg"
+        imageUrl: "/images/PLAN Mine Warefare Ships/WOCHI MCM.jpg"
       },
       {
         id: 16,
