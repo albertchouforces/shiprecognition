@@ -9,6 +9,8 @@ interface FlashCardProps {
   onNext: () => void;
   questionNumber: number;
   totalQuestions: number;
+  imageMaxWidth?: string | number;
+  imageMaxHeight?: string | number;
 }
 
 export function FlashCard({ 
@@ -17,7 +19,9 @@ export function FlashCard({
   onAnswer, 
   onNext,
   questionNumber,
-  totalQuestions
+  totalQuestions,
+  imageMaxWidth,
+  imageMaxHeight
 }: FlashCardProps) {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
@@ -73,6 +77,12 @@ export function FlashCard({
     return "bg-gray-100";
   };
 
+  // Create style object for the image container
+  const imageContainerStyle = {
+    maxWidth: imageMaxWidth ? (typeof imageMaxWidth === 'number' ? `${imageMaxWidth}px` : imageMaxWidth) : undefined,
+    maxHeight: imageMaxHeight ? (typeof imageMaxHeight === '140' ? `${imageMaxHeight}px` : imageMaxHeight) : '40vh',
+  };
+
   return (
     <div className="w-full max-w-3xl bg-white rounded-xl shadow-lg">
       <div className="flex flex-col w-full">
@@ -83,9 +93,12 @@ export function FlashCard({
             <span className="text-sm text-gray-500">Question {questionNumber} of {totalQuestions}</span>
           </div>
           
-          {/* Image Container with improved sizing */}
+          {/* Image Container with improved sizing and custom constraints */}
           <div className="flex flex-col items-center mb-4">
-            <div className="w-full aspect-[16/9] relative rounded-lg overflow-hidden bg-transparent mb-4 max-h-[40vh]">
+            <div 
+              className="w-full aspect-[16/9] relative rounded-lg overflow-hidden bg-transparent mb-4"
+              style={imageContainerStyle}
+            >
               {!imageLoaded && !imageError && (
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50">
                   <div className="text-gray-400 text-center px-4">
