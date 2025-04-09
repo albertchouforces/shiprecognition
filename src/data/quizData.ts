@@ -701,7 +701,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Renhai CG",
         description: "This ship measures 180 metres",
-        fact: "The Type 055 destroyer (NATO/OSD designation Renhai-class cruiser) is a class of stealth guided-missile destroyers. It has a multi-mission design; the combination of sensors and weapons provides a main role of area air defence, with anti-submarine warfare capabilities surpassing previous Chinese surface combatants.",
+        fact: "The Renhai-class cruiser is the largest surface combatant ever built by China and is equipped with 112 vertical launch cells—more than any ship outside of the U.S. Navy.",
         imageUrl: "/images/PLAN Naval Combatants/Renhai CG.jpg"
       },
       {
@@ -709,7 +709,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Luyang III MOD DDG",
         description: "This ship measures 162 metres",
-        fact: "The Type 052D destroyer (NATO/OSD reporting name: Luyang III-class destroyer)[13] is a class of guided-missile destroyers.",
+        fact: "The Luyang III MOD destroyer features an extended flight deck to support operations of the new Z-20 naval helicopter.",
         imageUrl: "/images/PLAN Naval Combatants/Luyang III MOD DDG.jpg"
       },
       {
@@ -717,7 +717,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Fujian CV",
         description: "This ship measures 315 metres",
-        fact: "It is the third aircraft carrier of the Chinese aircraft carrier programme, capable of catapult-assisted take-offs (CATOBAR).",
+        fact: "Fujian is China’s first aircraft carrier to use an electromagnetic catapult launch system, placing it technologically closer to the U.S. Navy’s Gerald R. Ford-class carriers.",
         imageUrl: "/images/PLAN Naval Combatants/Fujian CV.jpg"
       },
       {
@@ -725,7 +725,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Kuznetsov MOD CV",
         description: "This ship measures 315 metres",
-        fact: "the design of the ship is a modified version of and similar to the Kuznetsov-class aircraft carrier originally made for the Soviet Navy.",
+        fact: "China's Kuznetsov MOD carrier, also known as Liaoning, was originally a Soviet ship left unfinished and later refurbished by China into a fully operational training and combat carrier.",
         imageUrl: "/images/PLAN Naval Combatants/Kuznetsov - Kuznetsov MOD CV.jpg"
       },
       {
@@ -733,7 +733,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Luyang III DDG",
         description: "This ship measures 157 metres",
-        fact: "",
+        fact: "Luyang III is China's first destroyer to field a fully flush-mounted vertical launch system capable of launching surface-to-air, anti-ship, and land-attack missiles.",
         imageUrl: "/images/PLAN Naval Combatants/Luyang III DDG.jpg"
       },
       {
@@ -741,7 +741,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Luyang II DDG",
         description: "This ship measures 157 metres",
-        fact: "",
+        fact: "Luyang II was the PLAN’s first destroyer to integrate a phased-array radar and long-range surface-to-air missiles, giving it true fleet air defense capability.",
         imageUrl: "/images/PLAN Naval Combatants/Luyang II DDG.jpg"
       },
       {
@@ -749,7 +749,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Luyang I DDG",
         description: "This ship measures 157 metres",
-        fact: "",
+        fact: "Luyang I marked China's transition toward modern multi-role destroyers and was one of the first to use Western-style hull shaping and missile systems.",
         imageUrl: "/images/PLAN Naval Combatants/Luyang I DDG.jpg"
       },
       {
@@ -757,7 +757,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Luzhou DDG",
         description: "This ship measures 156 metres",
-        fact: "",
+        fact: "Luzhou-class destroyers were the only PLAN surface ships to use the Russian S-300F long-range air defense missile system.",
         imageUrl: "/images/PLAN Naval Combatants/Luzhou DDG.jpg"
       },
       {
@@ -765,7 +765,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Luhai DDG",
         description: "This ship measures 153 metres",
-        fact: "",
+        fact: "The Luhai-class was a one-off prototype and, at the time of commissioning, was the largest Chinese-built warship ever constructed.",
         imageUrl: "/images/PLAN Naval Combatants/Luhai DDG.jpg"
       },
       {
@@ -773,7 +773,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Sovremennyy II DDG",
         description: "This ship measures 156 metres",
-        fact: "",
+        fact: "Sovremennyy II destroyers were purchased from Russia with upgraded electronics and are armed with supersonic Sunburn missiles designed to penetrate carrier battle group defenses.",
         imageUrl: "/images/PLAN Naval Combatants/Sovremennyy II DDG.jpg"
       },
       {
@@ -781,7 +781,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Sovremennyy III DDG",
         description: "This ship measures 156 metres",
-        fact: "",
+        fact: "Sovremennyy III refers to further modernized versions reportedly refitted in China with domestic sensors and fire control systems.",
         imageUrl: "/images/PLAN Naval Combatants/Sovremennyy III DDG.jpg"
       },
       {
@@ -789,7 +789,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Luhu DD",
         description: "This ship measures 142 metres",
-        fact: "",
+        fact: "The Luhu-class was the PLAN’s first modern destroyer designed with international cooperation, including American gas turbines—before relations cooled in the late 1990s.",
         imageUrl: "/images/PLAN Naval Combatants/Luhu DD.jpg"
       },
       {
@@ -797,7 +797,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Jiangkai III FFG",
         description: "This ship measures 150 metres",
-        fact: "",
+        fact: "Jiangkai III frigates are reported to be the first Chinese frigates equipped with active electronically scanned array (AESA) radar and integrated electric propulsion.",
         imageUrl: "/images/PLAN Naval Combatants/Jiangkai III FFG.jpg"
       },
       {
@@ -805,7 +805,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Jiangkai II MOD FFG",
         description: "This ship measures 140 metres",
-        fact: "",
+        fact: "The Jiangkai II MOD features refined radar and sensor suites, increasing its performance in anti-air and anti-submarine roles.",
         imageUrl: "/images/PLAN Naval Combatants/Jiangkai II MOD FFG.jpg"
       },
       {
@@ -813,7 +813,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Jiangkai II FFG",
         description: "This ship measures 133 metres",
-        fact: "",
+        fact: "Jiangkai II frigates are the PLAN’s most numerous modern frigates, often seen escorting aircraft carriers and conducting overseas deployments.",
         imageUrl: "/images/PLAN Naval Combatants/Jiangkai II FFG.jpg"
       },
       {
@@ -821,7 +821,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Jiangkai I FF",
         description: "This ship measures 133 metres",
-        fact: "",
+        fact: "Jiangkai I was the first Chinese frigate to incorporate stealth shaping and quieter propulsion—laying the groundwork for future stealth designs.",
         imageUrl: "/images/PLAN Naval Combatants/Jiangkai I FF.jpg"
       },
       {
@@ -829,7 +829,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Jiangwei II Upgrade FF",
         description: "This ship measures 112 metres",
-        fact: "",
+        fact: "Upgraded Jiangwei II frigates have been retrofitted with new sensors and roles, including training, coast guard, and drone support.",
         imageUrl: "/images/PLAN Naval Combatants/Jiangwei II Upgrade FF.jpg"
       },
       {
@@ -837,7 +837,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Jiangwei II FF",
         description: "This ship measures 112 metres",
-        fact: "",
+        fact: "Jiangwei II frigates were a major enhancement over their predecessors, incorporating dual helicopter hangars and improved missile systems.",
         imageUrl: "/images/PLAN Naval Combatants/Jiangwei II FF.jpg"
       },
       {
@@ -845,7 +845,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Jiangdao FFL",
         description: "This ship measures 90 metres",
-        fact: "",
+        fact: "Jiangdao-class corvettes are highly automated and designed for high-endurance patrol and anti-submarine missions near China’s coastline and maritime claims.",
         imageUrl: "/images/PLAN Naval Combatants/Jiangdao FFL.jpg"
       },
       {
@@ -853,7 +853,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Houbei PTG",
         description: "This ship measures 46 metres",
-        fact: "",
+        fact: "The Houbei-class missile boats are fast, stealthy catamarans armed with eight YJ-83 anti-ship missiles and intended for swarm attacks in coastal waters.",
         imageUrl: "/images/PLAN Naval Combatants/Houbei PTG.jpg"
       },
       {
@@ -861,7 +861,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Houxin PGG",
         description: "This ship measures 65 metres",
-        fact: "",
+        fact: "Houxin-class gunboats carry 6-tube ASW rocket launchers and are tasked with coastal anti-submarine patrols despite their compact size.",
         imageUrl: "/images/PLAN Naval Combatants/Houxin PGG.jpg"
       },
       {
@@ -869,7 +869,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Houjian PGG",
         description: "This ship measures 62 metres",
-        fact: "",
+        fact: "Houjian-class boats feature a helicopter landing deck—a rarity among fast attack craft—and were designed with Western input.",
         imageUrl: "/images/PLAN Naval Combatants/Houjian PGG.jpg"
       },
       {
@@ -877,7 +877,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Haiqing PC",
         description: "This ship measures 62 metres",
-        fact: "",
+        fact: "Haiqing-class patrol craft are some of the most numerous PLAN coastal vessels and are often used for law enforcement and sovereignty patrols.",
         imageUrl: "/images/PLAN Naval Combatants/Haiqing PC.jpg"
       },
       {
@@ -885,7 +885,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Shanghai III PC",
         description: "This ship measures 42 metres",
-        fact: "",
+        fact: "The Shanghai III patrol craft are based on a 1960s design and have been widely exported to many countries across Asia and Africa.",
         imageUrl: "/images/PLAN Naval Combatants/Shanghai III PC.jpg"
       }
     ]
@@ -893,8 +893,8 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
   {
     config: {
       id: "plan_amphibious_mine",
-      title: "PLAN Amphibious and Mine Warfare Ships",
-      description: "Test your knowledge of amphibious and mine warfare ships from the People's Liberation Army Navy of China.",
+      title: "PLAN Non-Combatant Support Ships",
+      description: "Test your knowledge of amphibious and mine warfare support ships from the People's Liberation Army Navy of China.",
       themeColor: 'blue',
       service: "plan_amphibious_mine",
       startScreenImage: "images/PLAN-quiz-start2.png",
@@ -906,7 +906,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yushen LHA",
         description: "This ship measures 240 metres",
-        fact: "",
+        fact: "The Yushen-class amphibious assault ship is the largest non-carrier vessel in the PLAN, capable of carrying helicopters, landing craft, and a full marine battalion.",
         imageUrl: "/images/PLAN Amphibious Ships/Yushen LHA.jpg"
       },
       {
@@ -914,7 +914,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yuzhao LPD",
         description: "This ship measures 212 metres",
-        fact: "",
+        fact: "Yuzhao-class dock landing ships are China’s primary blue-water amphibious platforms, often seen leading overseas naval diplomacy missions.",
         imageUrl: "/images/PLAN Amphibious Ships/Yuzhao LPD.jpg"
       },
       {
@@ -922,7 +922,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yulan LHA",
         description: "This ship measures 260 metres",
-        fact: "",
+        fact: "Yulan-class ships are rumored to be smaller follow-ons or testbeds for future amphibious helicopter carriers, possibly for regional operations.",
         imageUrl: "/images/PLAN Amphibious Ships/Yulan LHA.jpg"
       },
       {
@@ -930,7 +930,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yuting II LST",
         description: "This ship measures 120 metres",
-        fact: "",
+        fact: "The Yuting II tank landing ships feature a stern well deck for launching amphibious vehicles and are often deployed in South China Sea exercises.",
         imageUrl: "/images/PLAN Amphibious Ships/Yuting II LST.jpg"
       },
       {
@@ -938,7 +938,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yuting I LST",
         description: "This ship measures 120 metres",
-        fact: "",
+        fact: "Yuting I-class landing ships were among China’s first modern LSTs and helped transition the PLAN into larger amphibious operations in the 1990s.",
         imageUrl: "/images/PLAN Amphibious Ships/Yuting I LST.jpg"
       },
       {
@@ -946,7 +946,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yukan LST",
         description: "This ship measures 120 metres",
-        fact: "",
+        fact: "The Yukan-class is one of the longest-serving amphibious ship classes in the PLAN, with over a dozen units still active as transports and auxiliaries.",
         imageUrl: "/images/PLAN Amphibious Ships/Yukan LST.jpg"
       },
       {
@@ -954,7 +954,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yuyi LCMA",
         description: "This ship measures 30 metres",
-        fact: "",
+        fact: "Yuyi-class air-cushion landing craft are launched from larger amphibious ships like the Yushen-class and are modeled after Western LCACs.",
         imageUrl: "/images/PLAN Amphibious Ships/Yuyi LCMA.jpg"
       },
       {
@@ -962,7 +962,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yubu LCU",
         description: "This ship measures 36 metres",
-        fact: "",
+        fact: "Yubu-class utility landing craft are used for shuttling troops, equipment, and vehicles from shore to ship in large-scale landing exercises.",
         imageUrl: "/images/PLAN Amphibious Ships/Yubu LCU.jpg"
       },
       {
@@ -970,7 +970,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yunshu LSM",
         description: "This ship measures 86 metres",
-        fact: "",
+        fact: "The Yunshu-class ships are medium landing ships designed for regional amphibious operations, capable of beach landings with armored vehicles.",
         imageUrl: "/images/PLAN Amphibious Ships/Yunshu LSM.jpg"
       },
       {
@@ -978,7 +978,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yudeng LSM",
         description: "This ship measures 87 metres",
-        fact: "",
+        fact: "Yudeng-class ships are older medium landing vessels now often repurposed for training, logistics, or as targets in naval exercises.",
         imageUrl: "/images/PLAN Amphibious Ships/Yudeng LSM.jpg"
       },
       {
@@ -986,7 +986,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yuhai",
         description: "This ship measures 58 metres",
-        fact: "It is also the Yuhai MOD LSM",
+        fact: "Yuhai-class vessels are small coastal amphibious ships, used for rapid island landings in close-to-shore environments such as the South China Sea.",
         imageUrl: "/images/PLAN Amphibious Ships/Yuhai - Yuhai MOD LSM.jpg"
       },
       {
@@ -994,7 +994,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yubei LCU",
         description: "This ship measures 65 metres",
-        fact: "",
+        fact: "Yubei-class landing craft are small utility vessels with a bow ramp and flat deck, ideal for transporting light vehicles and troops in coastal areas.",
         imageUrl: "/images/PLAN Amphibious Ships/Yubei LCU.jpg"
       },
       {
@@ -1002,7 +1002,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Pomornik LCUA",
         description: "This ship measures 56 metres",
-        fact: "",
+        fact: "The Pomornik-class is the world’s largest military hovercraft, originally Soviet-built and purchased by China to deploy troops and armor at high speed over water and beaches.",
         imageUrl: "/images/PLAN Amphibious Ships/Pomornik LCUA.jpg"
       },
       {
@@ -1010,7 +1010,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Yunnan II LCM / YFU",
         description: "This ship measures 28 metres",
-        fact: "",
+        fact: "Yunnan II-class landing craft are used for logistics and supply missions, particularly in remote island outposts, and can operate in very shallow waters.",
         imageUrl: "/images/PLAN Amphibious Ships/Yunnan II LCM - YFU.jpg"
       },
       {
@@ -1018,7 +1018,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Wochi MCM (early)",
         description: "This ship measures 66 metres",
-        fact: "",
+        fact: "The early Wochi-class mine countermeasure ships were among the PLAN's first dedicated minehunters, using traditional mechanical sweeping gear and basic sonar systems.",
         imageUrl: "/images/PLAN Mine Warefare Ships/WOCHI MCM.jpg"
       },
       {
@@ -1026,7 +1026,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Wosao I MSC",
         description: "This ship measures 45 metres",
-        fact: "",
+        fact: "The Wosao I-class coastal mine sweepers were designed for shallow water operations and were among the most numerous mine warfare vessels in the PLAN during the Cold War.s",
         imageUrl: "/images/PLAN Mine Warefare Ships/WOSAO I MSC.jpg"
       },
       {
@@ -1034,7 +1034,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Wochi MCM (late)",
         description: "This ship measures 70 metres",
-        fact: "",
+        fact: "The late Wochi-class ships feature advanced minehunting sonar and remotely operated vehicles (ROVs), significantly improving the PLAN’s modern mine countermeasure capability.",
         imageUrl: "/images/PLAN Mine Warefare Ships/WOCHI MCM (late).jpg"
       },
       {
@@ -1042,7 +1042,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Wosao II MSC",
         description: "This ship measures 48 metres",
-        fact: "",
+        fact: "Wosao II-class sweepers are upgraded variants with better electronics and mine detection systems, extending their usefulness in both coastal defense and escort operations.",
         imageUrl: "/images/PLAN Mine Warefare Ships/Wosao II MSC.jpg"
       },
       {
@@ -1050,7 +1050,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Wozang MHS",
         description: "This ship measures 55-58 metres",
-        fact: "",
+        fact: "The Wozang-class minehunters use non-magnetic hulls and modern variable-depth sonar, marking China’s transition to NATO-standard MCM design philosophies.",
         imageUrl: "/images/PLAN Mine Warefare Ships/Wozang MHS.jpg"
       },
       {
@@ -1058,7 +1058,7 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
         question: "Identify this ship",
         correctAnswer: "Wonang MSI",
         description: "This ship measures 30 metres",
-        fact: "",
+        fact: "The Wonang-class inshore mine sweepers are small, maneuverable craft ideal for clearing minefields in harbors, river mouths, and littoral waters—critical for amphibious staging areas.",
         imageUrl: "/images/PLAN Mine Warefare Ships/Wonang MSI.jpg"
       }
     ]
