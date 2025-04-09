@@ -74,37 +74,38 @@ export function FlashCard({
   };
 
   return (
-    <div className="w-full max-w-4xl bg-white rounded-xl shadow-lg mx-auto">
+    <div className="w-full max-w-4xl bg-white rounded-xl shadow-lg mx-auto overflow-hidden">
       <div className="flex flex-col w-full">
         {/* Question Section */}
         <div className="p-4 sm:p-6 border-b border-gray-100">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3 sm:mb-4 gap-2">
-            <h3 className="text-lg sm:text-xl font-semibold text-gray-800 leading-tight">{question.question}</h3>
+            <h3 className="text-lg sm:text-xl font-semibold text-gray-800 leading-tight break-words max-w-full sm:max-w-[70%]">{question.question}</h3>
             <span className="text-sm text-gray-500 whitespace-nowrap">Question {questionNumber} of {totalQuestions}</span>
           </div>
           
-          {/* Image Container with responsive sizing */}
+          {/* Image Container with responsive sizing and aspect ratio */}
           <div className="flex flex-col items-center mb-4">
-            <div className="w-full relative rounded-lg overflow-hidden bg-transparent mb-3 sm:mb-4" 
+            <div className="w-full relative overflow-hidden bg-transparent mb-3 sm:mb-4 rounded-lg" 
                  style={{ maxHeight: 'min(40vh, 400px)' }}>
               {!imageLoaded && !imageError && (
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50">
+                <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50 min-h-[150px] sm:min-h-[200px]">
                   <div className="text-gray-400 text-center px-4">
                     <div className="text-sm font-medium mb-1">Loading Image</div>
                   </div>
                 </div>
               )}
               {imageError ? (
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50 text-gray-400 min-h-[200px]">
+                <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50 text-gray-400 min-h-[150px] sm:min-h-[200px]">
                   <ImageOff size={32} />
                   <p className="text-sm mt-2">Image not available</p>
                 </div>
               ) : (
-                <div className="w-full aspect-video flex items-center justify-center bg-transparent">
+                <div className="w-full flex items-center justify-center bg-transparent">
                   <img
                     src={question.imageUrl}
                     alt="Question"
-                    className={`max-w-full max-h-[min(35vh,350px)] object-contain ${imageLoaded ? 'block' : 'hidden'}`}
+                    className={`max-w-full max-h-[35vh] object-contain mx-auto ${imageLoaded ? 'block' : 'hidden'}`}
+                    style={{ maxHeight: 'min(35vh, 350px)' }}
                     onLoad={() => setImageLoaded(true)}
                     onError={handleImageError}
                   />
@@ -125,9 +126,9 @@ export function FlashCard({
                 disabled={showResult}
                 className={`w-full min-h-[48px] sm:min-h-[60px] p-3 sm:p-4 text-left rounded-lg transition-colors flex items-center justify-between ${getOptionStyles(option)}`}
               >
-                <span className="text-sm sm:text-base">{option}</span>
+                <span className="text-sm sm:text-base break-words pr-2">{option}</span>
                 {showResult && (
-                  <span>
+                  <span className="flex-shrink-0">
                     {option === question.correctAnswer && (
                       <Check className="text-green-600" size={20} />
                     )}
