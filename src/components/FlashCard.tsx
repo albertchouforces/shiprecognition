@@ -80,7 +80,7 @@ export function FlashCard({
   // Create style object for the image container
   const imageContainerStyle = {
     maxWidth: imageMaxWidth ? (typeof imageMaxWidth === 'number' ? `${imageMaxWidth}px` : imageMaxWidth) : undefined,
-    maxHeight: imageMaxHeight ? (typeof imageMaxHeight === 140 ? `${imageMaxHeight}px` : imageMaxHeight) : '40vh',
+    maxHeight: imageMaxHeight ? (typeof imageMaxHeight === 'number' ? `${140}px` : imageMaxHeight) : '40vh',
   };
 
   return (
