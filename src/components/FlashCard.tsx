@@ -85,7 +85,7 @@ export function FlashCard({
           
           {/* Image Container with improved sizing */}
           <div className="flex flex-col items-center mb-4">
-            <div className="w-full aspect-[16/9] relative rounded-lg overflow-hidden bg-transparent mb-4 max-h-[40vh]">
+            <div className="w-full aspect-[16/9] relative rounded-lg overflow-hidden bg-transparent mb-4 max-h-[30vh]">
               {!imageLoaded && !imageError && (
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50">
                   <div className="text-gray-400 text-center px-4">
