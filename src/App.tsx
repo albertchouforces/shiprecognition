@@ -4,7 +4,7 @@ import { ScoreDisplay } from './components/ScoreDisplay';
 import { StartScreen } from './components/StartScreen';
 import { UserNameInput } from './components/UserNameInput';
 import { Footer } from './components/Footer';
-import { QuizHeader } from './components/QuizHeader';
+import { BookOpen } from 'lucide-react';
 import { QUIZ_COLLECTION } from './data/quizData';
 import { shuffleArray, getRandomOptions } from './lib/utils';
 import type { QuizStats, QuestionData, HighScoreEntry } from './types';
@@ -214,9 +214,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
-      {gameState !== 'selection' && selectedQuiz && (
-        <QuizHeader quizConfig={selectedQuiz.config} />
-      )}
       <div className="flex-1 py-8">
         <div className="container mx-auto flex flex-col items-center gap-8">
           {gameState === 'selection' ? (
@@ -229,6 +226,14 @@ function App() {
             <>
               {gameState === 'playing' ? (
                 <div className="flex flex-col items-center gap-6">
+                  {/* Quiz title now positioned above the score display */}
+                  <div className="flex items-center justify-center gap-3 mb-1">
+                    <BookOpen className={`text-${selectedQuiz.config.themeColor}-600`} size={24} />
+                    <h1 className={`text-2xl font-bold text-${selectedQuiz.config.themeColor}-600`}>
+                      {selectedQuiz.config.title}
+                    </h1>
+                  </div>
+                  
                   <ScoreDisplay 
                     correct={correctAnswers} 
                     total={totalAnswers} 
@@ -251,6 +256,14 @@ function App() {
                 </div>
               ) : (
                 <div className="flex flex-col items-center gap-6">
+                  {/* Quiz title also positioned above the final score display */}
+                  <div className="flex items-center justify-center gap-3 mb-1">
+                    <BookOpen className={`text-${selectedQuiz.config.themeColor}-600`} size={24} />
+                    <h1 className={`text-2xl font-bold text-${selectedQuiz.config.themeColor}-600`}>
+                      {selectedQuiz.config.title}
+                    </h1>
+                  </div>
+                  
                   <ScoreDisplay 
                     correct={correctAnswers} 
                     total={totalAnswers} 
