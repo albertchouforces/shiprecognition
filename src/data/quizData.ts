@@ -515,8 +515,8 @@ export const QUIZ_COLLECTION: QuizDefinition[] = [
   {
     config: {
       id: "irin",
-      title: "IRIN Warships",
-      description: "Test your knowledge of warships from the Islamic Republic of Iran Navy.",
+      title: "IRIN Naval Combatants and Support Ships",
+      description: "Test your knowledge of multi-role naval combatants and support ships from the Islamic Republic of Iran Navy.",
       themeColor: 'green',
       service: "irn",
       startScreenImage: "images/irin-quiz-start.png",
