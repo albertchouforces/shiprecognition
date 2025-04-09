@@ -74,61 +74,57 @@ export function FlashCard({
   };
 
   return (
-    <div className="w-full max-w-4xl bg-white rounded-xl shadow-lg mx-auto overflow-hidden">
+    <div className="w-full max-w-3xl bg-white rounded-xl shadow-lg">
       <div className="flex flex-col w-full">
         {/* Question Section */}
-        <div className="p-4 sm:p-6 border-b border-gray-100">
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3 sm:mb-4 gap-2">
-            <h3 className="text-lg sm:text-xl font-semibold text-gray-800 leading-tight break-words max-w-full sm:max-w-[70%]">{question.question}</h3>
-            <span className="text-sm text-gray-500 whitespace-nowrap">Question {questionNumber} of {totalQuestions}</span>
+        <div className="p-6 border-b border-gray-100">
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-xl font-semibold text-gray-800">{question.question}</h3>
+            <span className="text-sm text-gray-500">Question {questionNumber} of {totalQuestions}</span>
           </div>
           
-          {/* Image Container with responsive sizing and aspect ratio */}
+          {/* Image Container with improved sizing */}
           <div className="flex flex-col items-center mb-4">
-            <div className="w-full relative overflow-hidden bg-transparent mb-3 sm:mb-4 rounded-lg" 
-                 style={{ maxHeight: 'min(40vh, 400px)' }}>
+            <div className="w-full aspect-[16/9] relative rounded-lg overflow-hidden bg-transparent mb-4 max-h-[40vh]">
               {!imageLoaded && !imageError && (
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50 min-h-[150px] sm:min-h-[200px]">
+                <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50">
                   <div className="text-gray-400 text-center px-4">
                     <div className="text-sm font-medium mb-1">Loading Image</div>
                   </div>
                 </div>
               )}
               {imageError ? (
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50 text-gray-400 min-h-[150px] sm:min-h-[200px]">
+                <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-50 text-gray-400">
                   <ImageOff size={32} />
                   <p className="text-sm mt-2">Image not available</p>
                 </div>
               ) : (
-                <div className="w-full flex items-center justify-center bg-transparent">
-                  <img
-                    src={question.imageUrl}
-                    alt="Question"
-                    className={`max-w-full max-h-[35vh] object-contain mx-auto ${imageLoaded ? 'block' : 'hidden'}`}
-                    style={{ maxHeight: 'min(35vh, 350px)' }}
-                    onLoad={() => setImageLoaded(true)}
-                    onError={handleImageError}
-                  />
-                </div>
+                <img
+                  src={question.imageUrl}
+                  alt="Question"
+                  className={`w-full h-full object-contain ${imageLoaded ? 'block' : 'hidden'}`}
+                  onLoad={() => setImageLoaded(true)}
+                  onError={handleImageError}
+                />
               )}
             </div>
-            <p className="text-base sm:text-lg text-gray-600 italic text-center max-w-2xl px-2">{question.description}</p>
+            <p className="text-lg text-gray-600 italic text-center max-w-xl">{question.description}</p>
           </div>
         </div>
 
-        {/* Options Section - sized to viewport */}
-        <div className="w-full p-4 sm:p-6 border-b border-gray-100">
-          <div className="grid grid-cols-1 gap-2 sm:gap-3 w-full max-w-2xl mx-auto">
+        {/* Options Section */}
+        <div className="w-full p-6 border-b border-gray-100">
+          <div className="grid grid-cols-1 gap-3 w-full max-w-xl mx-auto">
             {options.map((option) => (
               <button
                 key={option}
                 onClick={() => handleAnswer(option)}
                 disabled={showResult}
-                className={`w-full min-h-[48px] sm:min-h-[60px] p-3 sm:p-4 text-left rounded-lg transition-colors flex items-center justify-between ${getOptionStyles(option)}`}
+                className={`w-full min-h-[60px] p-4 text-left rounded-lg transition-colors flex items-center justify-between ${getOptionStyles(option)}`}
               >
-                <span className="text-sm sm:text-base break-words pr-2">{option}</span>
+                <span>{option}</span>
                 {showResult && (
-                  <span className="flex-shrink-0">
+                  <span>
                     {option === question.correctAnswer && (
                       <Check className="text-green-600" size={20} />
                     )}
@@ -144,11 +140,11 @@ export function FlashCard({
 
         {/* Result Section */}
         {showResult && (
-          <div className="w-full p-4 sm:p-6 flex flex-col gap-4 sm:gap-6">
+          <div className="w-full p-6 flex flex-col gap-6">
             <div className="flex justify-center w-full">
               <button
                 onClick={onNext}
-                className="px-5 sm:px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 {questionNumber === totalQuestions ? 'Finish Quiz' : 'Next Question'}
               </button>
@@ -156,12 +152,12 @@ export function FlashCard({
 
             {/* Only show "Did you know" section if there's a fact */}
             {question.fact && (
-              <div className="bg-blue-50 p-3 sm:p-4 rounded-lg border border-blue-200 max-w-2xl mx-auto">
+              <div className="bg-blue-50 p-4 rounded-lg border border-blue-200 max-w-xl mx-auto">
                 <div className="flex items-center gap-2 text-blue-800 mb-2">
-                  <BookOpen size={18} className="flex-shrink-0" />
+                  <BookOpen size={20} />
                   <span className="font-semibold">Did you know?</span>
                 </div>
-                <p className="text-sm sm:text-base text-blue-900">{question.fact}</p>
+                <p className="text-blue-900">{question.fact}</p>
               </div>
             )}
           </div>
