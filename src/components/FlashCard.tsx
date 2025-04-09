@@ -9,7 +9,7 @@ interface FlashCardProps {
   onNext: () => void;
   questionNumber: number;
   totalQuestions: number;
-  imageMaxWidth?: string | number;
+  imageMaxWidth?: 200;
   imageMaxHeight?: 150;
 }
 
